@@ -1,7 +1,7 @@
 local M = {}
 
 M.colors = {
-  black = "#121212",
+  black = "#222222",
   black1 = "#252525",
   black2 = "#393939",
   black3 = "#4d4d4d",
@@ -14,7 +14,7 @@ M.colors = {
   purple6 = "#5a32a3",
 }
 
--- dark
+-- dark soft
 M.themes = {
   primary = "#4d9375",
 
@@ -24,8 +24,8 @@ M.themes = {
   ignored = "#383837",
   border = "#f0f0f0",
 
-  background = "#121212",
-  activeBackground = "#181818",
+  background = "#222222",
+  activeBackground = "#292929",
 
   lowBackground = "#222222",
   lowActiveBackground = "#292929",
