@@ -29,10 +29,10 @@
 ## Limitations
 
 - Requires neovim 0.8.0+ , nvim-treesitter latest
-- Vitesse dark only
+- Vitesse Dark Soft only
 - Transparent friendly
 - Not 100% same as [vscode-theme-vitesse](https://github.com/antfu/vscode-theme-vitesse)
-- Use [vitesse.iterm](https://github.com/2nthony/vitesse.iterm) or change your terminal background to `#121212` (vitesse dark background)
+- Change your terminal background to `#222222` (vitesse dark soft background) for best results
 - Lazy to update...
 
 ## Usage
