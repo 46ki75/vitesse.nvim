@@ -1,6 +1,6 @@
 <h1 align="center">Vitesse theme for NeoVIM</h1>
 
-![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/5LS1HW5NjR0q.png)
+![](https://cdn.jsdelivr.net/gh/46ki75/statics@main/uPic/5LS1HW5NjR0q.png)
 
 <p align="center">
   <sub>
@@ -13,12 +13,12 @@
 
 <details><summary>More screenshots</summary>
 
-![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/mTzAiuZkQmGR.png)
-![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/BquUsEgy1vzV.png)
-![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/qsBrvgVlz5FF.png)
-![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/FNMvsuIE7Nk3.png)
-![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/YvWaUlskqZvp.png)
-![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/Eg1IzFGiqJ4i.png)
+![](https://cdn.jsdelivr.net/gh/46ki75/statics@main/uPic/mTzAiuZkQmGR.png)
+![](https://cdn.jsdelivr.net/gh/46ki75/statics@main/uPic/BquUsEgy1vzV.png)
+![](https://cdn.jsdelivr.net/gh/46ki75/statics@main/uPic/qsBrvgVlz5FF.png)
+![](https://cdn.jsdelivr.net/gh/46ki75/statics@main/uPic/FNMvsuIE7Nk3.png)
+![](https://cdn.jsdelivr.net/gh/46ki75/statics@main/uPic/YvWaUlskqZvp.png)
+![](https://cdn.jsdelivr.net/gh/46ki75/statics@main/uPic/Eg1IzFGiqJ4i.png)
 
 </details>
 
@@ -46,7 +46,7 @@ Lazy.nvim:
 ```lua
 require("lazy").setup {
   {
-    "2nthony/vitesse.nvim",
+    "46ki75/vitesse.nvim",
     dependencies = {
       "tjdevries/colorbuddy.nvim"
     },
@@ -58,7 +58,7 @@ Packer:
 
 ```lua
 use {
-  "2nthony/vitesse.nvim",
+  "46ki75/vitesse.nvim",
   requires = {
     "tjdevries/colorbuddy.nvim"
   }
@@ -119,7 +119,7 @@ vim.opt.pumblend = 0
 
 <details><summary>⛰️ Slant tab (DEPRECATED, see usage bufferline)</summary>
 
-![](https://cdn.jsdelivr.net/gh/2nthony/statics@main/uPic/sUrBU2Hu7h7U.png)
+![](https://cdn.jsdelivr.net/gh/46ki75/statics@main/uPic/sUrBU2Hu7h7U.png)
 
 Usage:
 
@@ -159,5 +159,6 @@ require("bufferline").setup {
 
 ## Thanks
 
+- [2nthony/vitesse.nvim]([https://github.com/antfu/vscode-theme-vitesse](https://github.com/2nthony/vitesse.nvim))
 - [antfu/vscode-theme-vitesse](https://github.com/antfu/vscode-theme-vitesse)
 - [srvana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) modified, for more details you may need to check.
