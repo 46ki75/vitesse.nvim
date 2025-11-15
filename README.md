@@ -54,6 +54,36 @@ require("lazy").setup {
 }
 ```
 
+LazyVim:
+
+Add the following to `~/.config/nvim/lua/plugins/colorscheme.lua`:
+
+```lua
+return {
+  {
+    "46ki75/vitesse.nvim",
+    dependencies = { "tjdevries/colorbuddy.nvim" },
+    lazy = false,
+    priority = 1000,
+    opts = {
+      comment_italics = true,
+      transparent_background = false,
+      transparent_float_background = false,
+      reverse_visual = false,
+      dim_nc = false,
+    },
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "vitesse",
+    },
+  },
+}
+```
+
+After adding the configuration, sync plugins in Lazy mode (`:Lazy sync`) and restart Neovim.
+
 Packer:
 
 ```lua
